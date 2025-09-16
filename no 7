@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOv1o9LHh2hzx4aIsDCQqbu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gladys-4232401010/Pemrograman-Dasar/blob/main/no%207\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yEEekgW0dvoN",
+        "outputId": "64370e84-c47f-470b-af1b-86cfd5acc0c7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Gladys\n",
+            "15 november 2005\n",
+            "19\n",
+            "perempuan\n",
+            "RPE\n",
+            "3\n",
+            "Pemrograman Dasar\n",
+            "perumahan lotus garden\n",
+            "False\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Biodata dengan annotation\n",
+        "\n",
+        "nama:str = \"Gladys\"\n",
+        "tanggal_lahir:str = \"15 november 2005\"\n",
+        "umur:int = 19\n",
+        "jenis_kelamin = \"perempuan\"\n",
+        "jurusan:str = \"RPE\"\n",
+        "semester:int = 3\n",
+        "matakuliah:str = 'Pemrograman Dasar'\n",
+        "alamat:str = \"perumahan lotus garden\"\n",
+        "status_lulus:bool = False\n",
+        "\n",
+        "print (nama)\n",
+        "print (tanggal_lahir)\n",
+        "print (umur)\n",
+        "print (jenis_kelamin)\n",
+        "print (jurusan)\n",
+        "print (semester)\n",
+        "print (matakuliah)\n",
+        "print (alamat)\n",
+        "print (status_lulus)"
+      ]
+    }
+  ]
+}
